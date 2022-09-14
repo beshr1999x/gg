@@ -1,0 +1,25 @@
+{
+  "name": "jic",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+   
+    "dev": "nodemon server.js | pino-colada",
+    "start": "node server.js"
+    
+
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "fastify": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "pino-colada": "^2.2.2",
+    "pino-pretty": "^9.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
